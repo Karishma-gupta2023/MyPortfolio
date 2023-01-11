@@ -92,7 +92,7 @@ body{
 
 /*center-container*/
 .container-center{
-    max-width: 900px;
+    max-width:85%;
     width:100%;
     margin:auto;
 }
