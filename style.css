@@ -51,7 +51,7 @@ body{
    border-top-left-radius: 1rem;
    border-top-right-radius: 1rem;
    height:10vh;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
 }
 
 .nav-logo, .footer-header{
@@ -100,6 +100,7 @@ body{
 /*off-white block*/
 .ow{
     background-color: var(--off-white);
+    
 }
 
 /* links */
