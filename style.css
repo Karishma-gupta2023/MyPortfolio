@@ -104,10 +104,19 @@ body{
 }
 
 /* links */
+
+.link-single-button{
+    text-align: center;
+    text-decoration: none;
+}
 .link{
     box-sizing: border-box;
     text-decoration: none;
-        padding:0.5rem 1rem;
+    padding:0.5rem 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center; 
 }
 
 /* primary link*/
@@ -116,17 +125,17 @@ body{
   color:#ffffff;
   border-radius: 2rem;
   padding:0.6rem 1.2rem;
-  margin: 1 rem auto;
+  margin: 1rem 1rem;
   max-width: 140px;
-
+  
 }
 
 /* secondary link*/
 .link-secondary{
   color:var(--primary-color);
   border-radius: 2rem;
-  padding:0.6rem 1.2rem;
-  margin: 1 rem auto;
+  padding:0.6rem 1.2rem; 
+  margin: 1rem 1rem;
   max-width: 140px;
   border: 1px solid #06B6D4;
 }
