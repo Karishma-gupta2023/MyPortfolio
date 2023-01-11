@@ -12,6 +12,8 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px 34px;
+
+  
   
      
    }
@@ -44,11 +46,12 @@ body{
     padding:1rem;
     display:flex;
     justify-content:space-between;
-    align-items: center;
+     align-items: center; 
    background-color:var(--primary-color);
    border-top-left-radius: 1rem;
    border-top-right-radius: 1rem;
    height:10vh;
+   flex-wrap: wrap;
 }
 
 .nav-logo, .footer-header{
@@ -66,7 +69,7 @@ body{
 .nav-item a{
     color:#ffffff;
     text-decoration: none;
-    font-size:15px;
+  
 }
 
 .nav-container .link-active{
@@ -77,7 +80,7 @@ body{
 .section{
     text-align: center;
     padding:2rem;
-    margin:2rem o;
+    margin:2rem 0;
     border-radius:1rem;
 }
 
