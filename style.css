@@ -7,6 +7,14 @@
     --primary-color:#06B6D4;
     --off-white:#f3f4f6;
     --dark-grey:#6b7280;
+    --dark-blue:#0891b2;
+}
+
+
+.nav-container a:hover{
+    background-color: var(--dark-blue);
+    padding:1rem;
+    border-radius: 1rem;
 }
 
 body{
@@ -54,12 +62,19 @@ body{
    flex-wrap: wrap; 
 }
 
-.nav-logo, .footer-header{
+ .footer-header{
     color:#ffffff;
     font-size:large;
     font-style: italic;
 }
 
+.nav-logo{
+    color:var(--off-white);
+    font-weight: bold;
+    font-size:x-large;
+   
+
+}
 .nav-items{
     display:flex;
     gap:15px;
@@ -157,6 +172,7 @@ body{
     align-items: center;
   justify-content: center;
   font-size:15px;
+
     
 }
 
@@ -165,8 +181,15 @@ body{
     text-decoration: none;
     
     
-}
     
+}
+   
+.footer-header-socialmedia-items a:hover{
+    font-weight: bold;
+    
+    
+}
+
 /*typography small text*/
 small{
   
