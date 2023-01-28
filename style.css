@@ -168,3 +168,11 @@ font-size: large;
 p{
     font-size: large;
 }
+
+
+@media (max-width:600px){
+    .nav-items{
+
+        margin-top:1.rem;
+    }
+}
