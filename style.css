@@ -63,7 +63,7 @@ h1{
     
     
     display: inline-block;
-    margin:1rem;
+   margin:0.5rem;
     color:var(--h1-color) ;
 }
 header{
@@ -77,7 +77,11 @@ header{
 
 .hero-img{
 border-radius: 2rem;
+<<<<<<< HEAD
 width:200px;
+=======
+width: 150px;
+>>>>>>> 78df6bd26617cfda8594f68e128136ff45ed40c5
 border: 6px solid var(--primary-color);
 
 
