@@ -24,7 +24,7 @@ body{
 .nav-container{
     display:flex;
     justify-content: space-between;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding:1.5rem;
     flex-wrap: wrap;
     gap:1rem;
@@ -56,6 +56,7 @@ body{
 
 .nav-items a:hover{
     text-decoration-line: overline underline;
+    text-decoration-color: var(--h1-color);
 }
 
 h1{
@@ -99,22 +100,31 @@ border: 6px solid var(--primary-color);
 }
 .btn-primary{
     text-decoration: none;
-    color: white;
-    background-color: var(--primary-color);
-    border-radius: 1rem;
+    background: linear-gradient(89deg, #5a4bda 0, #eb427e 100%) no-repeat padding-box;
+           /* background-clip: text; */
+           /* -webkit-background-clip: text;  */
+            color: transparent;
+        border-radius: 1rem;
     padding:1rem;
     font-size: large;
+  color:white;
+  border-color: var(--primary-color);
 
 }
 
 .btn-secondary{
     text-decoration: none;
-    color: var(--primary-color);
+    background: linear-gradient(89deg, #5a4bda 0, #eb427e 100%) no-repeat padding-box;
+            background-clip: text;  
+            -webkit-background-clip: text;  
+            color: transparent;
         border-radius: 1rem;
     padding:1rem;
     font-size: large;
+  border: 1px solid purple;
   background-color: white;
-  border-color: var(--primary-color);
+  font-weight: bold;
+  
 
 
 }
@@ -126,13 +136,14 @@ border: 6px solid var(--primary-color);
     align-items: center;
     flex-direction: column;
     gap:1rem;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding:1.5rem;
 }
 
 .foot-title{
     font-size:larger;
     text-decoration:underline overline;
+    text-decoration-color: #eb427e;
 }
 
 .foot-socialCont{
@@ -148,7 +159,11 @@ font-size: large;
 
     .foot-container a:hover{
         font-size: large;
-        font-weight: bold;}
+        font-weight: bold;
+        background: linear-gradient(89deg, #5a4bda 0, #eb427e 100%) no-repeat padding-box;
+        background-clip: text;  
+        -webkit-background-clip: text;  
+        color: transparent;}
 
 p{
     font-size: large;
