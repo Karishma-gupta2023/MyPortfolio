@@ -17,6 +17,7 @@ body{
     color:white;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Sofia Sans', sans-serif;
+    overflow-y:scroll!important;
 
     
 
@@ -95,8 +96,7 @@ border: 6px solid var(--primary-color);
     text-align: center;
 }
 
-hr,br{
-    padding:0px 34px;
+
 
 .link-flex{
 
