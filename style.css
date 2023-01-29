@@ -95,6 +95,9 @@ border: 6px solid var(--primary-color);
     text-align: center;
 }
 
+hr,br{
+    padding:0px 34px;
+
 .link-flex{
 
     display:flex;
