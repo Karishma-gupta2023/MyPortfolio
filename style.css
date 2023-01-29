@@ -18,7 +18,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Sofia Sans', sans-serif;
 /*     overflow-y: scroll;  */
-    width:100%;
+/*     width:100%; */
+    margin:0px 20px;
+    
 
 }
 
