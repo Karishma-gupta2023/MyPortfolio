@@ -15,7 +15,7 @@
 body{
     background-color: black;
     color:white;
-    font-family: 'Montserrat', sans-serif;
+    
     font-family: 'Sofia Sans', sans-serif;
   
 
@@ -26,14 +26,13 @@ body{
     display:flex;
     justify-content: space-between;
     background-color: black;
-    padding:34px 0px;
+    
     flex-wrap: wrap;
     gap:1rem;
-    
+    padding:1rem;
     position:fixed;
-    left:34px;
-    
-    right:34px;
+    left:0px;
+    right:0px;
 
     
 }
@@ -182,14 +181,15 @@ font-size: large;
         -webkit-background-clip: text;  
         color: transparent;}
 
-p{
-    font-size: large;
-}
 
 
 @media (max-width:600px){
     .nav-items{
 
-        margin-top:1.rem;
+        margin-top:1rem;
     }
-}
+
+    .hero-img{
+        margin-top:7rem;
+
+}}
